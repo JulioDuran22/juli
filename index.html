@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love You ❤️</title>
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210715233345.png">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <div class="floating-elements">
+      <div class="wing left"></div>
+      <div class="heart"></div>
+      <div class="wing right"></div>
+    </div>
+    <div id="envelope">
+      <div class="top"></div>
+      <div class="sides"></div>
+    </div>
+   
+  
+  </div>
+  <div class="password-box" id="passwordBox">
+    <p class="tit">💌 Ingresa la contraseña secreta:</p>
+    <input type="text" id="passwordInput" autocomplete="off" placeholder="Pista 1: lo que siempre te digo">
+    <button onclick="checkPassword()">Desbloquear carta</button>
+    <p id="errorMessage" style="color:crimson;"></p>
+  </div>
+  
+  
+  <div id="secretLetter" class="hidden" target="_blank" style="cursor: pointer;">
+    <p>Jamás creí que el corazón pudiera rendirse tan por completo a otro ser. Desde el instante en que compartimos palabra, desde que percibí en ti esa luz inquebrantable, mi alma no ha tenido reposo.</p>
+    <p>He luchado contra mis sentimientos, he intentado negarlos, y aun así, aquí me encuentro, incapaz de contener lo que late dentro de mí.</p>
+    <p>Confesar mi amor no es sólo un acto de valor, sino de verdad. Te amo. Más allá de toda razón, de todo juicio, te amo. No por capricho, ni por impulso pasajero, sino con una devoción serena, ardiente y absoluta.</p>
+    <p>Tu presencia ha invadido cada pensamiento mío; tu risa me acompaña aun en el más silencioso de los días.</p>
+    <p>No sé si soy digno de ti. Pero si acaso hay un rincón en tu corazón dispuesto a acogerme, si puedes mirarme no como un extraño, sino como alguien que viviría cada día con la firme intención de honrarte, entonces permíteme esperar, aunque sea en silencio, que algún día me llames tuyo.</p>
+    <p>Siempre tuyo,</p>
+    <p class="autor">Julio Duran</p>
+  </div>
+  
+  <audio id="loveSong" src="love.mp3" preload="auto"></audio>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+
+
+</html>
